@@ -45,6 +45,13 @@ gem "bootsnap", require: false
 # Installs faker gem to autopopulate seeds
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 
+# Install for markdown editor
+gem "simple_form", github: "heartcombo/simple_form"
+# gem 'font-awesome-rails'
+# gem 'md_simple_editor'
+# gem 'simple_form'
+
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

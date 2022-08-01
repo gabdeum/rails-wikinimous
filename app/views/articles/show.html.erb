@@ -1,0 +1,10 @@
+<div class="row justify-content-center mx-2">
+  <div class="col-12 col-md-8">
+    <article>
+      <h1 class="mt-4 mb-4"><%= @article.title %> &nbsp;<%= link_to '', edit_article_path, class: "fa-regular fa-pen-to-square", id: "btn-edit-delete" %>
+      <%= link_to '', article_path(@article), id: "btn-edit-delete", class: "fa-regular fa-trash-can", data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %></h1>
+      <hr>
+      <pre><%= @article.content %></pre>
+    </article>
+  </div>
+</div>
